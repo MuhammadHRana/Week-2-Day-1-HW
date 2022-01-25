@@ -24,7 +24,7 @@ def calculate(x,y):
                 return calculate(input("What is Number 1? "), input("What is number 2? "))
     # elif isinstance(x, float) or isinstance(y, float)
     #     print()
-
+ 
 calculate(input("What is Number 1? "),input("What is number 2? "))
 # END
 
