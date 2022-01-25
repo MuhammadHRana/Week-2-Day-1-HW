@@ -34,15 +34,15 @@ calculate(input("What is Number 1? "),input("What is number 2? "))
 # Problem #2 
 # Create a pyramid of X's for n number of levels.
 
-# indent = 0
-# def pyramid(total):
-#     rows = int(total)
-#     indent = rows
-#     for number in range(rows):
-#         indent += -1
-#         print((' '*indent) + number * 'X ')
+indent = 0
+def pyramid(total):
+    rows = int(total)
+    indent = rows
+    for number in range(rows):
+        indent += -1
+        print((' '*indent) + number * 'X ')
 
 
-# pyramid(input('How many rows of X\'s would you like?'))
+pyramid(input('How many rows of X\'s would you like?'))
 
 # END
